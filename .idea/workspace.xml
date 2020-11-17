@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e77018-0036-4550-a2dc-ff8b2d6d8662" name="Default Changelist" comment="" />
+    <list default="true" id="66e77018-0036-4550-a2dc-ff8b2d6d8662" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/compressor/ImageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/compressor/ImageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/config/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/config/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/file_service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/file_service/FileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/compressor/ImageCompressor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/compressor/NeuralNetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/compressor/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/config/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/file_service/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/file_service/ImageService.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +74,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="168" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603463419087">
       <screen x="0" y="0" width="1422" height="760" />
@@ -85,26 +107,26 @@
     </state>
     <state x="429" y="123" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1603274242085" />
     <state x="589" y="319" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605541519466" />
-    <state width="1878" height="211" key="GridCell.Tab.0.bottom" timestamp="1605558970376">
+    <state width="1878" height="211" key="GridCell.Tab.0.bottom" timestamp="1605602348776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1604493624994" />
-    <state width="1878" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605558970376" />
-    <state width="1878" height="211" key="GridCell.Tab.0.center" timestamp="1605558970376">
+    <state width="1878" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
+    <state width="1878" height="211" key="GridCell.Tab.0.center" timestamp="1605602348776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1604493624994" />
-    <state width="1878" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605558970376" />
-    <state width="1878" height="211" key="GridCell.Tab.0.left" timestamp="1605558970376">
+    <state width="1878" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
+    <state width="1878" height="211" key="GridCell.Tab.0.left" timestamp="1605602348776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1604493624993" />
-    <state width="1878" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605558970376" />
-    <state width="1878" height="211" key="GridCell.Tab.0.right" timestamp="1605558970376">
+    <state width="1878" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
+    <state width="1878" height="211" key="GridCell.Tab.0.right" timestamp="1605602348776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1604493624994" />
-    <state width="1878" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605558970376" />
+    <state width="1878" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
     <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1605115736231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
