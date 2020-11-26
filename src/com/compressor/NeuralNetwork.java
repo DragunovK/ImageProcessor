@@ -40,7 +40,7 @@ public class NeuralNetwork {
                 -1, 1,
                 new Random()
         );
-        secondLayerWeightMatrix = firstLayerWeightMatrix.transpose();
+        secondLayerWeightMatrix = firstLayerWeightMatrix.transpose().scale(0.01); //Multiply by 0.01 for sake of faster learning
 
         train();
     }

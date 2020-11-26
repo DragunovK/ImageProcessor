@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="66e77018-0036-4550-a2dc-ff8b2d6d8662" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/imageOut/1/ResultImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/imageOut/1/ResultImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/imageOut/1/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/image/imageOut/1/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/compressor/ImageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/compressor/ImageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/compressor/NeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/compressor/NeuralNetwork.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/config/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/config/Configuration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NNIP/com/file_service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NNIP/com/file_service/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/compressor/ImageCompressor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/compressor/NeuralNetwork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/compressor/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/config/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/file_service/FileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mrz/com/file_service/ImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/compressor/ImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/compressor/ImageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/compressor/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/compressor/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/config/Configuration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +59,16 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lib/ejml-v0.39-libs/ejml-zdense-0.39.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/imageIn" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46896553" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\Repos\Intellij IDEA Projects\ImageProcessor\image\imageIn" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -84,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="168" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603463419087">
@@ -102,31 +127,31 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state width="506" height="438" key="DebuggerActiveHint/0.0.1422.760@0.0.1422.760" timestamp="1603790060411" />
-    <state x="589" y="319" key="FileChooserDialogImpl" timestamp="1605541519466">
+    <state x="589" y="319" key="FileChooserDialogImpl" timestamp="1605686988201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="429" y="123" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1603274242085" />
-    <state x="589" y="319" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605541519466" />
-    <state width="1878" height="211" key="GridCell.Tab.0.bottom" timestamp="1605602348776">
+    <state x="589" y="319" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605686988201" />
+    <state width="1878" height="212" key="GridCell.Tab.0.bottom" timestamp="1606400465727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1604493624994" />
-    <state width="1878" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
-    <state width="1878" height="211" key="GridCell.Tab.0.center" timestamp="1605602348776">
+    <state width="1878" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606400465727" />
+    <state width="1878" height="212" key="GridCell.Tab.0.center" timestamp="1606400465727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1604493624994" />
-    <state width="1878" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
-    <state width="1878" height="211" key="GridCell.Tab.0.left" timestamp="1605602348776">
+    <state width="1878" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606400465727" />
+    <state width="1878" height="212" key="GridCell.Tab.0.left" timestamp="1606400465727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1604493624993" />
-    <state width="1878" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
-    <state width="1878" height="211" key="GridCell.Tab.0.right" timestamp="1605602348776">
+    <state width="1878" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606400465727" />
+    <state width="1878" height="212" key="GridCell.Tab.0.right" timestamp="1606400465727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1384" height="162" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1604493624994" />
-    <state width="1878" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605602348776" />
+    <state width="1878" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606400465727" />
     <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1605115736231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,6 +193,10 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="291" y="118" width="840" height="600" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1422.760@0.0.1422.760" timestamp="1603491158354" />
+    <state x="385" y="203" key="new project wizard" timestamp="1605687010883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="385" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605687010883" />
     <state x="374" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1603627033088">
       <screen x="0" y="0" width="1422" height="760" />
     </state>

@@ -37,8 +37,8 @@ public class ImageProcessor {
 
     private void generatePixelRectangles() {
         Raster imageData = image.getData();
-        double remainderHeight = imageData.getHeight() % blockHeight;
-        double remainderWidth = imageData.getWidth() % blockWidth;
+        int remainderHeight = imageData.getHeight() % blockHeight;
+        int remainderWidth = imageData.getWidth() % blockWidth;
 
         int x; int y;
         //taking all blocks except remainder by x
