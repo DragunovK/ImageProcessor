@@ -10,9 +10,9 @@ public class Configuration {
     public static final int rectangle_width = 8;
     public static final int rectangle_height = 8;
 
-    public static final int second_layer_neurons_number = 24;
+    public static final int second_layer_neurons_number = 64;
     public static final double max_allowed_error = 1000;
-    public static final double learning_rate = 0.0001;
+    public static final double learning_rate = 0.001;
 
     public static final String image_name = "5";
     public static final String image_type = "jpg";

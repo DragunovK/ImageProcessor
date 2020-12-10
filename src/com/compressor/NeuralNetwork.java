@@ -46,11 +46,9 @@ public class NeuralNetwork {
     }
 
     private void train() {
-        int i = 1;
+        int learningIteration = 1;
 
         while (true) {
-            double totalMSE = 0;
-
             for (var item : rectangles) {
                 SimpleMatrix X = new SimpleMatrix(item.getReferenceVector());
                 SimpleMatrix Y = X.mult(firstLayerWeightMatrix);
@@ -64,14 +62,23 @@ public class NeuralNetwork {
                 secondLayerWeightMatrix = secondLayerWeightMatrix.minus(
                         (Y.transpose().scale(learningRate)).mult(deltaX)
                 );
+            }
+
+            double totalMSE = 0;
+
+            for (var item : rectangles) {
+                SimpleMatrix X = new SimpleMatrix(item.getReferenceVector());
+                SimpleMatrix Y = X.mult(firstLayerWeightMatrix);
+                SimpleMatrix X_ = Y.mult(secondLayerWeightMatrix);
+                SimpleMatrix deltaX = X_.minus(X);
 
                 totalMSE += (deltaX.elementMult(deltaX)).elementSum();
             }
 
-            System.out.println("Learning iteration " + i++ + ":\n\t\tTotal MSE: " + totalMSE);
+            System.out.println("Learning iteration " + learningIteration++ + ":\n\t\tTotal MSE: " + totalMSE);
 
             if (totalMSE <= maxAllowedError) {
-                FileService.learningSummary(firstLayerWeightMatrix, secondLayerWeightMatrix, totalMSE, i - 1);
+                FileService.learningSummary(firstLayerWeightMatrix, secondLayerWeightMatrix, totalMSE, learningIteration - 1);
                 break;
             }
         }
